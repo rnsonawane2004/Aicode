@@ -1,0 +1,10 @@
+| Test Case Id | Test Description                                  | Pre-Conditions        | Expected Results                                         | Actual Results | Status |
+|--------------|---------------------------------------------------|-----------------------|----------------------------------------------------------|----------------|--------|
+| COMP01       | Create a company with all required fields filled  | User logged in        | Company is created and appears in the customer list      |                |        |
+| COMP02       | Create a company with optional fields left blank  | User logged in        | Company is created with only required fields             |                |        |
+| COMP03       | Attempt to create a company with no name          | User logged in        | Error message for missing company name                   |                |        |
+| COMP04       | Attempt to create a company with no currency      | User logged in        | Error message for missing currency                       |                |        |
+| COMP05       | Submit form with invalid email format             | User logged in        | Error message for invalid email format                   |                |        |
+| COMP06       | Submit form with invalid phone number format      | User logged in        | Error message for invalid phone number format            |                |        |
+| COMP07       | Cancel the creation process                       | User logged in        | Form is closed, no changes are saved                     |                |        |
+| COMP08       | Create a company with all fields filled correctly | User logged in        | Company is created with all details and confirmation message |              |        |
